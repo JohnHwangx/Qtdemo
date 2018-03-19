@@ -115,6 +115,7 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddDialog.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="QtDemo.cpp" />
   </ItemGroup>
@@ -122,10 +123,14 @@
     <QtMoc Include="QtDemo.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="AddDialog.ui" />
     <QtUic Include="QtDemo.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="QtDemo.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="AddDialog.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

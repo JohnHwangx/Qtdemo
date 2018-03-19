@@ -36,14 +36,23 @@
     <ClCompile Include="QtDemo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AddDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="QtDemo.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="AddDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="QtDemo.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="AddDialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
